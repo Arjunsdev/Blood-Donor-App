@@ -47,28 +47,28 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBLMtkMar7BDI-9RjSx46TBLqR1eGSwbu8',
-    appId: '1:152324579891:web:ea730d70ade78fda97b946',
-    messagingSenderId: '152324579891',
-    projectId: 'hackathon-project-jp',
-    authDomain: 'hackathon-project-jp.firebaseapp.com',
-    storageBucket: 'hackathon-project-jp.appspot.com',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    authDomain: '',
+    storageBucket: '',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyB4cJUr2c6RuwUITjg-kqR09ZTRud_Klr0',
-    appId: '1:1:619688495872:android:9c74faea8856f3bd4181e5',
+    apiKey: '',
+    appId: '',
     messagingSenderId: '619688495872',
-    projectId: 'blood-1c0cb',
-    storageBucket: 'blood-1c0cb.appspot.com',
+    projectId: '',
+    storageBucket: '',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDjdKzuwpcen4-dl1I4QBOZnUvuX7VHqU8',
-    appId: '1:152324579891:ios:97b48ab8ab9b45b797b946',
+    apiKey: 'your api key',
+    appId: '',
     messagingSenderId: '152324579891',
-    projectId: 'hackathon-project-jp',
-    storageBucket: 'hackathon-project-jp.appspot.com',
-    iosBundleId: 'com.example.projectJp',
+    projectId: 'your project id',
+    storageBucket: 'your storagebucket',
+    iosBundleId: '',
   );
 }
